@@ -59,7 +59,7 @@ public class LoginBean implements Serializable {
 	        //return "login.xhtml?faces-redirect=true";
 			System.out.println("login");
 			
-			return "/logout";
+			return "/login.xhtml?faces-redirect=true";
 	        
 		} catch (ServletException e) {
 			e.printStackTrace();

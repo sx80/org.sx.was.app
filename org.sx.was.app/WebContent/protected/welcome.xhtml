@@ -11,6 +11,8 @@
 	<h:outputText value="Welcome" />
 	<h:form>
 		<h:commandLink action="#{loginBean.logout}" value="Logout"/>
+		<br/>xx<br/>
+		<h:outputText value="#{request.userPrincipal}" />
 	</h:form>
 </h:body> 
 </html>
