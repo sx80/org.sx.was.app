@@ -13,7 +13,7 @@ public class Account implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 
-	private String value = "to jest text";
+	private String value = "to jest text2";
 	
 	public Account() {
 		
